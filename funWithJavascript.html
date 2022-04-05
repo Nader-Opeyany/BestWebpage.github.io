@@ -6,12 +6,27 @@
 		<!-- link to your script file here -->
 		
 	</head>
+    <script src="fancifyMytext.js"></script>
 
 	<body>
 		<h1>Fancify my Text</h1>
 		
 
 		<!-- Your UI controls go here -->
-		
+		<form>
+            <label for="box">Text:</label>
+            </br>
+            <input type="text" id="box" size="30" >
+            <input type="button" id="mainButton"value="Bigger!" onclick="onClick()">
+            </br>
+            <div> 
+                <input type="radio" id="FancyShmancy" name="FancyShmancy" value="FancyShmancy">
+                <label for="FancyShmancy" id="FancyShmancy">FancyShmancy</label>
+            </div>
+            <div> 
+                <input type="radio" id="BoringBetty" name="BoringBetty" value="BoringBetty">
+                <label for="BoringBetty" id="BoringBetty">BoringBetty</label>
+            </div>
+        </form>
 	</body>
 </html>
