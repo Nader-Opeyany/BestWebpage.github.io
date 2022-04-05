@@ -1,10 +1,18 @@
 function onClick(){
     alert("Salam")
-    const test =document.getElementById("box").style.fontSize 
-    console.log(test)
-    test = parseInt(test)
-    test.fontSize += 20;
-    //var text = document.getElementById("box").value;
-   // document.getElementById("demo").innerHTML =  text;
+}
+function biggerIsBetter(){
+    var mess = document.getElementById("a");
+    console.log(mess);
 
+    mess.style.fontSize = "24pt";
+    console.log(mess);
+}
+function changeText(){
+    var mess = document.getElementById("a");
+    mess.style.fontWeight = "bold";
+}
+function changeBack(event){
+    var mess = document.getElementById("a");
+    mess.style.fontWeight = "normal";
 }
