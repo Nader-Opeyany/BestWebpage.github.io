@@ -7,18 +7,23 @@
 		
 	</head>
     <script src="fancifyMytext.js"></script>
-
+    <style>
+        textarea{font-size: 12pt;}
+    </style>
 	<body>
 		<h1>Fancify my Text</h1>
-		
+
 
 		<!-- Your UI controls go here -->
 		<form>
             <label for="box">Text:</label>
             </br>
-            <input type="text" id="box" size="30" >
-            <input type="button" id="mainButton"value="Bigger!" size="10em" onclick="onClick()">
+            <textarea id="textBox" name="box"
+            rows="4" cols="30"></textarea>
             </br>
+            <input type="button" id="mainButton"value="Bigger!"  onclick="onClick()">
+            </br>
+            <p id="demo"></p>
             <div> 
                 <input type="radio" id="FancyShmancy" name="FancyShmancy" value="FancyShmancy">
                 <label for="FancyShmancy" id="FancyShmancy">FancyShmancy</label>
