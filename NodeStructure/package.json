@@ -1,0 +1,11 @@
+{
+  "name": "nodestructure",
+  "version": "1.0.0",
+  "description": "NodeJs work",
+  "main": "appNode.js",
+  "scripts": {
+    "test": "salam"
+  },
+  "author": "Nader Opeyany",
+  "license": "ISC"
+}
